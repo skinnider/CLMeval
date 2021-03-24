@@ -1,0 +1,19 @@
+Package: CLMeval
+Title: Chemical language model evaluation
+Version: 0.0.0.9000
+Authors@R: c(
+  person("Michael", "Skinnider", email = "michael.skinnider@msl.ubc.ca",
+         role = c("aut", "cre")))
+BugReports: https://github.com/skinnider/CLMeval/issues
+Description: CLMeval is an R package that enables the holistic evaluation of chemical language models (that is, recurrent neural network-based models of textual representations of molecules). This is achieved by integrating multiple orthogonal sources of information about model performance via principal component analysis.
+Depends: R (>= 3.5.0)
+Imports:
+	magrittr (>= 1.5),
+	Rdpack (>= 0.7)
+Suggests: knitr
+VignetteBuilder: knitr
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+RdMacros: Rdpack
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
